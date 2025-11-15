@@ -1,4 +1,37 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+.accordion {
+    max-width:800px;
+    padding:5px;
+}
+
+.body-text {
+    text-align:center;
+    padding:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+}
+
+.carousel {
+    max-width:800px;
+}
+
+header {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:rgb(177, 9, 9);
+    padding: 20px;
+    color:rgb(227, 229, 231);
+}
+
+header img {
+    width:48px;
+    height:48px;
+}
+
+body {
+    background:linear-gradient(180deg,#ee281a,#c02419);
+    padding:10px;
+}
+
+h2 {
+    font-weight:bolder;
 }
